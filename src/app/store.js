@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import listPokemonsReducer from '../features/listPokemons/listPokemonsSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    listPokemons: listPokemonsReducer,
   },
 });

@@ -2,7 +2,7 @@ import counterReducer, {
   increment,
   decrement,
   incrementByAmount,
-} from './counterSlice';
+} from './listPokemonsSlice';
 
 describe('counter reducer', () => {
   const initialState = {
